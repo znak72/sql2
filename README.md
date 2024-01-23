@@ -18,7 +18,7 @@ GROUP BY s.store_id, ci.city_id, st.staff_id
 HAVING count(c.customer_id) > 300;
 ```
 
-![image](https://github.com/gralvic/12.4_SQL_PART_2/blob/main/SQL_PART_2_TASK_01.png)
+![image](https://github.com/znak72/sql2/blob/main/SQL_PART_2_TASK_01.png)
 
 ### Задание 2.
 
@@ -30,7 +30,7 @@ FROM (SELECT *, AVG(LENGTH) OVER () AS TIME FROM film) t
 WHERE TIME < LENGTH;
 ```
 
-![image](https://github.com/gralvic/12.4_SQL_PART_2/blob/main/SQL_PART_2_TASK_02.png)
+![image](https://github.com/znak72/sql2/blob/main/SQL_PART_2_TASK_02.png)
 
 ### Задание 3.
 
@@ -44,4 +44,4 @@ ORDER BY SUM(p.amount) DESC
 LIMIT 1;
 ```
 
-![image](https://github.com/gralvic/12.4_SQL_PART_2/blob/main/SQL_PART_2_TASK_03.png)
+![image](https://github.com/znak72/sql2/blob/main/SQL_PART_2_TASK_03.png)
